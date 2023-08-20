@@ -3,5 +3,5 @@
 	export let data;
 </script>
 
-<h1>{data.title}</h1>
-<div>{@html data.content}</div>
+<h1>{data.annonce.title}</h1>
+<div>{@html data.annonce.content}</div>
